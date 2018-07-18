@@ -1,0 +1,38 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+I suppose I could have better access to historical information about programs I have written.
+I could see when errors might have arisen just by seeing how the code had changed.
+
+
+As a programmer, when would you want to have a version of your code saved?
+
+I definitely would want to be able to choose when to save my code. Additionally, it would be nice to have it
+save whenever their is a large enough change - maybe automatically without me looking.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+1) I would have the final say in what is an important change vs. a minor change.
+2) If I suck as logging work, I would be at a higher risk of losing my progress.
+3) Autosaving is a bit like insurance, I don't need to worry about a computer crashing.
+
+
+What do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+I honestly think it's just how the database of objects is setup. Additionally, Other version control systems
+might deal less with integrated files like coding programs.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log will show you an entire history of a repository - it will have a unique key for every change.
+git diff can be used to compare two different log entries
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Way more confident - I can always just got back to a previous stat of the code where it was working. It 
+makes troubleshooting way more methodical.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Can I create repository to hold versions of some webscraping Python scripts that I've written?
