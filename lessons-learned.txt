@@ -73,4 +73,8 @@ Humans are visual - a graph makes understanding how a tree/branch like diagram o
 
 
 
+11) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+We take ALL the commits from one of them, and JAM them FORCEFULLY into the first listed branch. We represent it as a new
+point between the two because it takes from both of the prior commits/parents.
 
