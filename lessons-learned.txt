@@ -42,3 +42,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 In the staging area you can see what is pending the commit and make sure that there is only one thing in there.
 Not sure how to remove things from the stage though - or I don't remember.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+I like that you could have multiple versions of the code both available and compare potentially big functional changes.
+It doesn't really have a purpose when it comes to bug fixes or updates - I feel like branches are only for the bigger changes.
