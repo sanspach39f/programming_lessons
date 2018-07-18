@@ -36,3 +36,9 @@ makes troubleshooting way more methodical.
 Now that you have your workspace set up, what do you want to try using Git for?
 
 Can I create repository to hold versions of some webscraping Python scripts that I've written?
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+In the staging area you can see what is pending the commit and make sure that there is only one thing in there.
+Not sure how to remove things from the stage though - or I don't remember.
+
