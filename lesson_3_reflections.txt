@@ -1,6 +1,43 @@
 Samuel Anspach
 Udemy Git Training Reflections
-_______________________________
+______________________________________________________________________________________________
+
+Table of Contents:
+
+- Functions and explanations
+
+- Lessons Learned Part 3
+
+Functions and explanations
+__________________________
+
+git status - 
+
+git init - 
+
+git log (--graph) (--oneline) -
+
+git clone - 
+
+git branch - 
+
+git checkout - 
+
+git remote (-add) - 
+
+git fetch - 
+
+git pull - 
+
+git push - 
+
+git add - 
+
+git commit - 
+
+
+Lesson Learned Part 3
+_____________________
 
 1) When would you want to use a remote repository rather than keeping all your work local?
 
