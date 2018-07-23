@@ -11,9 +11,9 @@ Table of Contents:
 Functions and explanations
 __________________________
 
-git status - 
+git status - Check to see what branch you are on, what will get committed, what won't be committed
 
-git init - 
+git init - Create a repository in the current directory
 
 git log (--graph) (--oneline) -
 
@@ -21,7 +21,8 @@ git clone -
 
 git branch - 
 
-git checkout - 
+git checkout - Move your terminal to look at the files at the state that your referrence. You can enter in
+		a branch name or the actual log id.
 
 git remote (-add) - 
 
