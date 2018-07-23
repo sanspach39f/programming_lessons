@@ -32,3 +32,19 @@ _______________________________
 
 
 
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Uhhhhhhhhh......I don't have a great answer for this.
+	Google Docs?
+	Google Script? That's only for G-Script....
+	X:Drive on a local drive? Only can do if we are on the same network...
+	I have NO Idea...
+
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	You can audit each other's work before commit it. It's just like the lesson explained,
+	you can control what actually makes it's way to the master branch.
+
+
+
