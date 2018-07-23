@@ -2,16 +2,17 @@ Samuel Anspach
 Udemy Git Training 
 Lesson 3
 ______________________________________________________________________________________________
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 Table of Contents:
 
-- Functions and explanations
+- Functions and Explanations
 
 - Lessons Learned
 
 
 
-Functions and explanations
+Functions and Explnations
 ______________________________________________________________________________________________
 
 git status - Check to see what branch you are on, what will get committed, what won't be committed
@@ -91,4 +92,5 @@ ________________________________________________________________________________
 	you can control what actually makes it's way to the master branch.
 
 
+<><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
