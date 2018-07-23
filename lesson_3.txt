@@ -1,21 +1,26 @@
 Samuel Anspach
-Udemy Git Training Reflections
+Udemy Git Training 
+Lesson 3
 ______________________________________________________________________________________________
 
 Table of Contents:
 
 - Functions and explanations
 
-- Lessons Learned Part 3
+- Lessons Learned
+
+
 
 Functions and explanations
-__________________________
+______________________________________________________________________________________________
 
 git status - Check to see what branch you are on, what will get committed, what won't be committed
 
 git init - Create a repository in the current directory
 
-git log (--graph) (--oneline) -
+git log (--graph) (--oneline) - Display a list of commits. If a branch name is list, a comprehensive
+				list will be display, if a commit ID is entered, a list up to that ID
+				will be displayed. More options can be added to improve readability.
 
 git clone - 
 
@@ -37,8 +42,9 @@ git add -
 git commit - 
 
 
-Lesson Learned Part 3
-_____________________
+Lesson Learned
+______________________________________________________________________________________________
+
 
 1) When would you want to use a remote repository rather than keeping all your work local?
 
