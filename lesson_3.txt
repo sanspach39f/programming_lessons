@@ -2,6 +2,8 @@ Samuel Anspach
 Udemy Git Training 
 Lesson 3
 ______________________________________________________________________________________________
+______________________________________________________________________________________________
+
 
 Table of Contents:
 
@@ -11,7 +13,7 @@ Table of Contents:
 
 
 
-Functions and explanations
+Functions and Explanations
 ______________________________________________________________________________________________
 
 git status - Check to see what branch you are on, what will get committed, what won't be committed
@@ -91,4 +93,6 @@ ________________________________________________________________________________
 	you can control what actually makes it's way to the master branch.
 
 
+
+_____________________________________________________________________________________________
 
