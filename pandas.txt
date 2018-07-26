@@ -1,0 +1,97 @@
+Samuel Anspach
+Questions and Lessons about Pandas
+__________________________________
+1)Tell me what a series is.
+
+	A series is a one dimensional array in pandas.
+	It is indexed and can hold whatever type you like
+	in it. It is also indexed.
+
+2) What does the index arguement specify when creating a
+DataFrame?
+
+	The index arguement is used to actually specify a
+	non default index. An example would be a pandas
+	date range object. Not sure what the default would
+	have been.
+
+	Update: the index arguement acts on the actual rows
+	of a pandas dataframe. You can specify number of 
+	rows that you will have columns for.
+
+	Indexing is all about the actual row that you're on,
+	think about an SQL table, you index vertically to 
+	locate certain data.
+
+3) What does the ".T" method do?
+
+	The ".T" method will transpose your DataFrame/Series.
+	It doesn't really do anything for a Series though 
+	because it is one dimensional. This is especially
+	useful for a DataFrame and cleaning data.
+
+
+4) Explain the "axis" option for the "sort_index" method.
+
+	Sort Index will sort you data by a certain axis
+	and sort it as either ascending or descending.
+	Axis = 0 means the vertical axis (Your normal
+	index) while Axis = 1 means your horizontal
+	axis. The latter will just shuffle up your 
+	columns.
+
+	Note - you can sort_index a Series object but
+	because it only has one dimension, if you 
+	specify the axis to sort by as "1", it will 
+	righfully give you an error message.
+
+5) How does the sort_values() method compare between a Series
+and a DataFrame object?
+
+	The sort_values() method will work with no arguements
+	for a series because their really is only one "column"
+	to sort by. For a DataFrame, if you don't specify a
+	column, the program won't run.
+
+6) What are you selection options for a DataFrame?
+
+	You can select a single Column using dot notation and
+	the name of the column. If you have a space in the 
+	column name you probably will need to put the whole
+	name in quotes. You could also use bracket notation 
+	with quotes to call a specific column name.
+
+7) What does the .loc method do for DataFrames and Series?
+
+	It returns a full row based off of the value that you
+	put in the brackets. It will search the index for that
+	value. This is for slicing and will only slice
+	vertically - it's only for getting rows. Think of it
+	like a vlookup.
+
+	Update: You can limit the columns too. Either in the
+	original bracket or in one next to it, you need to 
+	create an iterable bracket with comma separated
+	columns.
+
+	Update 2: You could also give it "Coordinates" in a
+	single bracket by just using a comma to separate 
+	index and then columns. For the columns, if you need
+	multiple you need to make to column separate those too
+	in another bracket as well.
+
+8) What does the "iloc" method do by comparison?
+
+	The "loc" method let you subset the index and columns
+	using a value for the index and a value for the column.
+	It had to be an exact match on the value. By comparison,
+	the "iloc" method will match based off of the literal
+	row number - based on how you last sorted your dataset.
+
+9) How do I create a new column in a DataFrame?
+
+	You just need to use bracket notation with the name you
+	want and set it equal to something. If you set a constant
+	then that value will be copied for all indexes in the
+	DataFrame.
+
